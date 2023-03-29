@@ -26,9 +26,17 @@ function Project() {
       <div data-aos = "fade-up">
         <div className="boxes">
           <div className="carousel owl-carousel">
-            <ProjectBox title = "Adriano Jeronimo" img= {img7} link = "https://adrianojeronimo.com.br/"  />
-            <ProjectBox title = "Rodrigues Arquitetura" img= {img5} link = "https://techluizfernando.wixsite.com/rodrigues-arquitetur"  />
-            <ProjectBox title = "Controle Financeiro" img= {img3} link = "https://financeiro.nandeve.com.br/"  />
+            <a href="https://adrianojeronimo.com.br/" rel="noopener noreferrer" target="_blank">
+              <ProjectBox title = "Adriano Jeronimo" img= {img7} />
+            </a>
+
+            <a href="https://techluizfernando.wixsite.com/rodrigues-arquitetur" rel="noopener noreferrer" target="_blank">
+              <ProjectBox title = "Rodrigues Arquitetura" img= {img5} />
+            </a>
+
+            <a href="https://financeiro.nandeve.com.br/" rel="noopener noreferrer" target="_blank">
+              <ProjectBox title = "Controle Financeiro" img= {img3} />
+            </a>
             {/* <ProjectBox title = "Gym Website" img= {img4} link = "https://github.com/ahmedrohailawan/Gym-Project"  />
             <ProjectBox title = "Alarm Clock using js" img= {img1} link = "https://github.com/ahmedrohailawan/Alarm-clock-using-javascript"  />
             <ProjectBox title = "File downloader using js" img= {img2} link = "https://github.com/ahmedrohailawan/File-downloader-with-vanilla-javasctipt"  />
