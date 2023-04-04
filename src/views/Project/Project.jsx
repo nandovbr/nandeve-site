@@ -9,7 +9,7 @@ import ProjectBox from '../../components/ProjectBox/ProjectBox'
 import img7 from  '../../images/AdrianoJe.png'
 import img5 from  '../../images/ElenRodri.png'
 import img3 from  '../../images/ControleFin.png'
-// import img4 from  '../../images/Gym.png'
+import img4 from  '../../images/landingpage.png'
 // import img1 from  '../../images/AlarmClock.png'
 // import img2 from  '../../images/FileDownloader.png'
 // import img6 from  '../../images/TexttoSpeech.png'
@@ -26,6 +26,7 @@ function Project() {
       <div data-aos = "fade-up">
         <div className="boxes">
           <div className="carousel owl-carousel">
+            {/* necessário add o rel="noopener noreferrer" */}
             <a href="https://adrianojeronimo.com.br/" rel="noopener noreferrer" target="_blank">
               <ProjectBox title = "Adriano Jeronimo" img= {img7} />
             </a>
@@ -36,6 +37,10 @@ function Project() {
 
             <a href="https://financeiro.nandeve.com.br/" rel="noopener noreferrer" target="_blank">
               <ProjectBox title = "Controle Financeiro" img= {img3} />
+            </a>
+
+            <a href="https://exclusivo.nandeve.com.br/" rel="noopener noreferrer" target="_blank">
+              <ProjectBox title = "Landing page" img= {img4} />
             </a>
             {/* <ProjectBox title = "Gym Website" img= {img4} link = "https://github.com/ahmedrohailawan/Gym-Project"  />
             <ProjectBox title = "Alarm Clock using js" img= {img1} link = "https://github.com/ahmedrohailawan/Alarm-clock-using-javascript"  />
