@@ -31,7 +31,7 @@ function Project() {
               <ProjectBox title = "Adriano Jeronimo" img= {img7} />
             </a>
 
-            <a href="https://techluizfernando.wixsite.com/rodrigues-arquitetur" rel="noopener noreferrer" target="_blank">
+            <a href="https://arquiteturarodrigues.com.br/" rel="noopener noreferrer" target="_blank">
               <ProjectBox title = "Rodrigues Arquitetura" img= {img5} />
             </a>
 
