@@ -27,7 +27,7 @@ function About() {
           Desenvolvimento de sites, aplicações, sistemas e softwares.
           A Nandeve é uma empresa que atua no mercado de tecnologia da informação, com foco em soluções para a web.
         </p>
-        <a href="https://www.linkedin.com/in/nandorodrigues/" target="_blank" rel="noopener noreferrer">Conheça o CTO</a>
+        <a href="https://www.linkedin.com/in/nandorodrigues/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </div>
