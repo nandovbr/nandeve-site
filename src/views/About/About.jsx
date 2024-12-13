@@ -22,10 +22,10 @@ function About() {
         <img src={img9} alt="" />
         </div>
         <div  className="right-content">
-        <h2>Empresa da área tecnológica</h2>
+        <h2>Empresa da área de tecnologia, marketing e inteligência artificial</h2>
         <p>
-          Desenvolvimento de sites, aplicações, sistemas e softwares.
-          A Nandeve é uma empresa que atua no mercado de tecnologia da informação, com foco em soluções para a web.
+          Desenvolvimento de sites, projetos de marketing, CRM e I.A.
+          A Nandeve é uma empresa que atua no mercado de tecnologia da informação, com foco em soluções para a web e marketing.
         </p>
         <a href="https://www.linkedin.com/in/nandorodrigues/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
